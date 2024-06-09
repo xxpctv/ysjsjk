@@ -2,6 +2,8 @@
 	"spider":"",
 	"sites":[
 {"key": "360","name": "🛰360","type": 1,"api": "https://360zy.com/api.php/provide/vod","playUrl": "","categories": ["国产剧", "国产动漫", "香港剧", "台湾剧", "欧美剧", "日韩动漫", "NBA", "短片", "西部片", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "惊悚片", "悬疑片", "犯罪片", "剧情片", "战争片", "家庭篇", "记录片", "历史片", "动漫片", "大陆综艺", "港台综艺"]},
+{"key":"预告片0609","name":"🎬️预告片","type":3,"api":"http://175.178.251.183:6689/lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"http://175.178.251.183:6689/JS/预告片世界.js"},
+{"key":"豆瓣","name":"🎧豆瓣评分","type":3,"api":"csp_Douban","searchable":0,"jar":"./spider (api).jar;md5;8EE8E83F03D2A33B43DB3A8717495D24"},
 {"key":"木耳","name":"木耳","type":1,"api":"https://www.heimuer.tv/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories": ["国产剧", "大陆综艺", "欧美综艺","港台综艺","国产动漫","欧美剧", "韩剧", "喜剧", "剧情", "爱情", "科幻", "惊悚", "悬疑", "冒险", "犯罪", "灾难", "短剧"]},
 {"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产剧","香港剧","韩国剧","日本剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","国产动漫","日韩动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key": "纯享","name": "纯享","type": 3,"api": "csp_WexF4kvm","searchable": 1,"changeable": 1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/juzhisan/xiaosabox/main/spider.jar"},
@@ -15,8 +17,11 @@
 {"key":"星芽短剧","name":"星芽短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0,"jar":"./spider (api).jar;md5;8EE8E83F03D2A33B43DB3A8717495D24"},
 {"key":"荐片0512","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com","jar":"./spider (api).jar;md5;8EE8E83F03D2A33B43DB3A8717495D24"},
 {"key": "TV直播","name": "TV直播","type": 3,"api": "https://d.kstore.space/download/2883/sdtv.js","ext": "https://d.kstore.space/download/2883/sdtv.txt","jar": "https://d.kstore.space/download/2883/sdtv.jar"},
-{"key":"T4-jrkan","name":"看球","type":4,"api":"https://catbox.n13.club/t7/jrkan.php"},
-{"key": "xuexi","name": "学习","type": 4,"api": "https://catbox.n13.club/t7/xuexi.php"}],
+{"key":"JRKAN直播","name":"⛹️赛事直播","type":3,"api":"./drpy2.min.js","playerType":"1","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JRKANvs.js"},
+{"key":"歌曲0222","name":"🎙️歌曲","type":3,"api":"csp_Bili","ext":"./bili歌曲.json","jar": "./XYQHiker.jar;md5;BD6F5842B96A6FBAB059CCBC01F40E6B"},
+{"key":"BT0427","name":"2BT","type":3,"api": "csp_XBPQ","ext":"./bttwoo.json","jar": "./XYQHiker.jar;md5;BD6F5842B96A6FBAB059CCBC01F40E6B"},
+{"key":"liumingye_open2","name":"音乐","type":3,"playerType": 1,"api":"./liumingye_music_open.js"}
+],
 "lives":[
 {"name": "live.ipv6","type": 0,"url": "https://notabug.org/xxpctv/dz/raw/master/py/ds.txt","playerType": 1,"ua": "okhttp/3.15",
 "epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
