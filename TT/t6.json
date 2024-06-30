@@ -7,10 +7,10 @@
 {"key":"木耳","name":"木耳","type":1,"api":"https://www.heimuer.tv/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories": ["国产剧", "大陆综艺", "欧美综艺","港台综艺","国产动漫","欧美剧", "韩剧", "喜剧", "剧情", "爱情", "科幻", "惊悚", "悬疑", "冒险", "犯罪", "灾难", "短剧"]},
 {"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产剧","香港剧","韩国剧","日本剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","国产动漫","日韩动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"木耳0606","name": "🆁木耳","type": 3,"api": "./drpy2.min.js","ext": "./mr.js"},
-{"key":"酷看弹幕","name":"酷看(d)","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox/main/danmu.jar"},
-{"key":"南瓜弹幕","name":"南瓜(d)","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox/main/danmu.jar"},
-{"key":"JOJO弹幕","name":"JOJO(d)","type":3,"api": "csp_Jiohub","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox/main/danmu.jar"},
-{"key":"荐片弹幕","name":"荐片(d)","type":3,"api":"csp_Jianpian","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox/main/danmu.jar"},
+{"key":"酷看弹幕","name":"酷看(d)","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar": "./danmu (api0630).jar;md5;5f6157c764202f28968131b805419431"},
+{"key":"南瓜弹幕","name":"南瓜(d)","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar": "./danmu (api0630).jar;md5;5f6157c764202f28968131b805419431"},
+{"key":"JOJO弹幕","name":"JOJO(d)","type":3,"api": "csp_Jiohub","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar": "./danmu (api0630).jar;md5;5f6157c764202f28968131b805419431"},
+{"key":"荐片弹幕","name":"荐片(d)","type":3,"api":"csp_Jianpian","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar": "./danmu (api0630).jar;md5;5f6157c764202f28968131b805419431"},
 {"key":"360ba","name":"360ba","type":3,"playerType":"1","api":"./360ba_open.js"},
 {"key":"DyGang0307","name":"电影港(d)","type":3,"api":"csp_DyGang","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"jar":"./custom_spider0427.jar;md5;ADED0173514DD4FF9E6291A25346B286"},
 {"key":"SixV0307","name":"新6V","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"jar":"./custom_spider0427.jar;md5;ADED0173514DD4FF9E6291A25346B286"},
@@ -19,7 +19,7 @@
 {"key": "暮暮动漫","name": "暮暮动漫","type": 3,"api": "csp_WebMuTeFun","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://www.mutean.com","jar":"./spider (api0628).jar;md5;fcc4f15b9364f03772301b23033d0812"},
 {"key":"星芽短剧","name":"星芽短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0,"jar":"./spider (api).jar;md5;8EE8E83F03D2A33B43DB3A8717495D24"},
 {"key": "良品短剧0628","name": "良品短剧","type": 3,"api": "csp_Wexduanjuvip","searchable": 1,"changeable": 1,"jar":"./spider (api0628).jar;md5;fcc4f15b9364f03772301b23033d0812"},
-{"key":"荐片0512","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com","jar":"./spider (api).jar;md5;8EE8E83F03D2A33B43DB3A8717495D24"},
+{"key":"荐片0512","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com","jar":"./spider (api0628).jar;md5;fcc4f15b9364f03772301b23033d0812"},
 {"key": "TV直播","name": "TV直播","type": 3,"api": "https://d.kstore.space/download/2883/sdtv.js","ext": "https://d.kstore.space/download/2883/sdtv.txt","jar": "https://d.kstore.space/download/2883/sdtv.jar"},
 {"key":"JRKAN直播","name":"⛹️赛事直播","type":3,"api":"./drpy2.min.js","playerType":"1","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JRKANvs.js"},
 {"key":"歌曲0222","name":"🎙️歌曲","type":3,"api":"csp_Bili","ext":"./bili歌曲.json","jar": "./XYQHiker.jar;md5;BD6F5842B96A6FBAB059CCBC01F40E6B"},
@@ -29,7 +29,7 @@
 "lives":[
 {"name": "live.ipv6","type": 0,"url": "https://notabug.org/xxpctv/dz/raw/master/py/ds.txt","playerType": 1,"ua": "okhttp/3.15",
 "epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "live","type": 0,"url": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt","playerType": 1,"ua": "okhttp/3.15",
+{"name": "live","type": 0,"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt","playerType": 1,"ua": "okhttp/3.15",
 "epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 
 
